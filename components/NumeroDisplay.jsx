@@ -1,9 +1,9 @@
-export default function ContadorDisplay(props){
+export default function NumeroDisplay(props){
     return (
         <div style={{
-            height: "200px",
-            width: "200px",
-            borderRadius: "100px",
+            height: "100px",
+            width: "100px",
+            borderRadius: "50px",
             backgroundColor: "#222",
             color: "#FFF",
             fontSize: "4rem",

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button } from 'reactstrap'
-import ContadorDisplay from '../../components/ContadorDisplay'
+import NumeroDisplay from '../../components/NumeroDisplay'
 
 export default function contador() {
 
@@ -17,7 +17,7 @@ export default function contador() {
     return (
         <div>
             <h1>Contador</h1>
-            <ContadorDisplay numero={contador} />
+            <NumeroDisplay numero={contador} />
             <Button color="primary" onClick={mais}> + </Button>
             <Button color="danger" onClick={menos}> - </Button>
         </div>
